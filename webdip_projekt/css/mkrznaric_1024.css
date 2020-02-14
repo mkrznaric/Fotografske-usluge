@@ -1,0 +1,486 @@
+@media only screen and (min-width: 1024px){
+    /*
+    ----------------HEADER POCETNA---------------
+    */
+    #pocetak{
+        width: auto;
+        padding: 10px;
+        text-align: center;
+        -webkit-animation: sjena 5s infinite; /* Chrome, Safari, Opera */
+        animation: sjena 5s infinite;
+    }
+
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes sjena {
+        50% {text-shadow: 10px 20px 30px gray;}
+    }
+
+    /* Standard syntax */
+    @keyframes sjena {
+        50% {text-shadow: 10px 20px 30px gray;}
+
+    }
+
+    /*
+    ----------------HEADER PRIJAVA---------------
+    */
+
+    #pocetak_prijava{
+        width: auto;
+        padding: 10px;
+        text-align: center;
+        text-decoration: underline;
+        animation: podcrtavanje 5s infinite;
+    }
+
+    @keyframes podcrtavanje {
+        50% {
+            text-decoration-color: floralwhite;
+        }
+    }
+
+    /*
+    --------------HEADER REGISTRACIJA------------
+    */
+    #pocetak_registracija{
+        width: auto;
+        padding: 10px;
+        text-align: center;
+        outline: 1px solid black;
+        -webkit-animation: crte 5s infinite; /* Chrome, Safari, Opera */
+        animation: crte 5s infinite;
+    }
+
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes crte {
+        50% {outline: 15px solid floralwhite;}
+    }
+
+    /* Standard syntax */
+    @keyframes crte {
+        50% {outline: 15px solid floralwhite;}
+    }
+    /*
+    -----------------HEADER OBRAZAC--------------
+    */
+    #pocetak_obrazac{
+        width: auto;
+        padding: 10px;
+        text-align: center;
+        background-color: lightgray;
+        -webkit-animation: suzavanje 5s infinite; /* Chrome, Safari, Opera */
+        animation: suzavanje 5s infinite;
+    }
+
+    /* Chrome, Safari, Opera */
+    @-webkit-keyframes suzavanje {
+        50% {margin-right: 50px;}
+        50% {margin-left: 50px;}
+    }
+
+    /* Standard syntax */
+    @keyframes suzavanje {
+        50% {margin-right: 50px;}
+        50% {margin-left: 50px;}
+    }
+    /*
+    -----------------HEADER POPIS---------------
+    */
+    #pocetak_popis{
+        width: auto;
+        padding: 10px;
+        text-align: center;
+        background: gray;
+        -webkit-animation: pozadina 5s infinite; /* Safari 4.0 - 8.0 */
+        animation: pozadina 5s infinite;
+    }
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes pozadina {
+        50% {background: floralwhite }
+    }
+
+    @keyframes pozadina {
+        50% {background: floralwhite }
+    }
+    /*
+    --------------HEADER MULTIMEDIJA------------
+    */
+    #pocetak_multimedija{
+        width: auto;
+        padding: 10px;
+        text-align: center;
+        border: 5px solid gray;
+        -webkit-animation: obrub 5s infinite; /* Safari 4.0 - 8.0 */
+        animation: obrub 5s infinite;
+    }
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes obrub {
+        50% {border-color: floralwhite;}
+    }
+
+    @keyframes obrub {
+        50% {border-color: floralwhite;}
+    }
+
+    /*
+    -------------------------------------------
+    */
+
+    .fotografija_pocetna{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .usluge{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    body{
+        background: floralwhite;
+        color: black;
+        font-family: "Arial";
+        margin: auto;
+        overflow-x: hidden;
+    }
+
+    .nav{
+        background: black;
+        color: white;
+        list-style: none;
+        text-align: center;
+        padding: 25px 0 25px 0;
+    }
+
+    .nav > li{
+        display: inline-block;
+        padding: 0 25px 0 25px;
+    }
+
+    .nav > li > a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav > li > a:hover{
+        color: darkgray;
+    }
+
+    /*
+    -------------------------------------------
+    */
+
+    #oautoru{
+        position: relative;
+        left: 15%;
+        top: 10px;
+    }
+
+    .matej{
+        position: relative;
+        left: 15%;
+        top: 30px;
+        height: 120px;
+        width: 120px;
+        border-style: solid;
+        border-color: black;
+
+    }
+
+    .podaci{
+        position: relative;
+        top: -90px;
+        left: 30%;
+        width: 300px;
+
+    }
+
+    .omeni{
+        position: relative;
+        top: -190px;
+        left: 57%;
+        height: 175px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .clanci{
+        border-style: dotted;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        border-color: black;
+        padding: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        position: relative;
+        top: -250px;
+        text-align: center;
+        height: 500px;
+    }
+
+    #prviclanak{
+        position: relative;
+        width: 350px;
+        height: 200px;
+    }
+
+    #drugiclanak{
+        position: relative;
+        top: -215px;
+        left: 35%;
+        width: 350px;
+        height: 200px;
+    }
+
+    #treciclanak{
+        position: relative;
+        top: -435px;
+        left: 70%;
+        width: 350px;
+        height: 200px;
+    }
+
+    #cetvrticlanak{
+        position: relative;
+        width: 350px;
+        height: 200px;
+        top: -300px;
+    }
+
+    #peticlanak{
+        position: relative;
+        width: 350px;
+        height: 200px;
+        top: -520px;
+        left: 35%;
+    }
+
+    #sesticlanak{
+        position: relative;
+        width: 350px;
+        height: 200px;
+        top: -740px;
+        left: 70%;
+    }
+
+    /*
+    -------------------------------------------
+    */
+
+    #registracija{
+        margin-left: 30%;
+        margin-right: 30%;
+        padding: 7%;
+    }
+    #tablicaregistracija{
+        border-style: solid;
+        border-color: black;
+        padding: 3%;
+        text-align: center;
+    }
+
+    #obrazacnaslov{
+        text-align: center;
+    }
+    /*
+    -------------------------------------------
+    */
+    #prijava{
+        margin-left: 31%;
+        margin-right: 31%;
+        padding: 7%;
+    }
+
+    #tablicaprijava{
+        border-style: solid;
+        border-color: black;
+        padding: 3%;
+        text-align: center;
+    }
+    /*
+    -------------------------------------------
+    */
+    #obrazac{
+        padding:5%;
+    }
+
+    fieldset{
+        padding: 2%;
+        border-color: black;
+    }
+
+    legend{
+        text-align: center;
+    }
+    #posaljiobrazac{
+        padding: 1%;
+        margin-left: 46%;
+    }
+
+
+    #tablicaslika{
+        padding-left: 30%;
+    }
+
+    #tablicasportas{
+        padding-left: 25%;
+    }
+
+    #tablicakontakt{
+        padding-left: 35%;
+    }
+
+    /*
+    -------------------------------------------
+    */
+    .grid-kontejner {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+    }
+    .grid-item {
+        padding: 20px;
+        text-align: center;
+    }
+    .slikeprvi{
+        height: 200px;
+        width: 250px;
+        margin-right: 1px;
+        margin-left: 1px;
+        border-right: 1px;
+        border-left: 1px;
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    .slikedrugi{
+        height: 200px;
+        width: 250px;
+        margin-right: 2px;
+        margin-left: 2px;
+        border-right: 2px;
+        border-left: 2px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+    .sliketreci{
+        height: 200px;
+        width: 250px;
+        margin-right: 3px;
+        margin-left: 3px;
+        border-right: 3px;
+        border-left: 3px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    .slikecetvrti{
+        height: 200px;
+        width: 250px;
+        margin-right: 4px;
+        margin-left: 4px;
+        border-right: 4px;
+        border-left: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .slikepeti{
+        height: 200px;
+        width: 250px;
+        margin-right: 5px;
+        margin-left: 5px;
+        border-right: 5px;
+        border-left: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+
+    /*
+    -------------------------------------------
+    */
+
+    .popis{
+        border-collapse: collapse;
+        border: 3px solid gray;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15%;
+    }
+
+    td, th {
+        text-align: left;
+        padding: 7px;
+    }
+
+    .zaglavlje:hover{
+        color: crimson;
+        background-color: yellow;
+    }
+    .parni:hover{
+        color: crimson;
+        background-color: yellow;
+    }
+
+    .neparni:hover{
+        color: crimson;
+        background-color: yellow;
+    }
+
+    #sadrzajtablica{
+        overflow-x: hidden;
+
+    }
+
+    /*
+    -------------------------------------------
+    */
+
+    #kraj{
+        text-align: center;
+        color: white;
+        background: black;
+        padding: 10px;
+        width: auto;
+        position: relative;
+    }
+
+    .ikona{
+        background: white;
+        height: 50px;
+        width: 50px;
+        transition: none;
+    }
+
+    .era{
+        width: 200px;
+        height: 200px;
+    }
+
+    #sadrzajera{
+        text-align: center;
+    }
+
+    .navigacijski{
+        width: 200px;
+        height: 200px;
+    }
+
+    #sadrzajnavigacijski{
+        text-align: center;
+    }
+
+
+
+
+}

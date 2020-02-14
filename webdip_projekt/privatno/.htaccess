@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Fotografske usluge"
+AuthUserFile /var/www/WebDiP/2018_projekti/WebDiP2018x077/.htpasswd
+Require valid-user

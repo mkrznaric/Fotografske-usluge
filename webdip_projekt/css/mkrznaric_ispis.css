@@ -1,0 +1,50 @@
+@media print {
+    #pocetak{
+        display: none;
+    }
+
+    #pocetak_popis{
+        display: none;
+    }
+    .nav{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+    .zaglavlje{
+        display:none;
+    }
+
+    .popis{
+        border: none;
+        padding: 15%;
+    }
+
+
+    .neparni{
+        color: white !important;
+        background-color: black !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .era{
+        width: 200px;
+        height: 200px;
+    }
+
+    #sadrzajera{
+        text-align: center;
+    }
+
+    .navigacijski{
+        width: 200px;
+        height: 200px;
+    }
+
+    #sadrzajnavigacijski{
+        text-align: center;
+    }
+}

@@ -1,0 +1,163 @@
+@media only screen and (max-width: 799px) and (min-width: 480px) {
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    .fotografija_pocetna{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .usluge{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    nav {
+        width: 100%;
+        margin: 0 auto;
+        background: black;
+        color: white;
+        list-style: none;
+        text-align: center;
+    }
+
+    .omeni{
+        width: 500px;
+        padding: 0px;
+        margin-right: 0px;
+        position: relative;
+        top: 50px;
+        left: 50px;
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    #oautoru{
+        overflow-x: hidden;
+        position: relative;
+        left: 0%;
+        padding-left: 15%;
+        top: 10px;
+    }
+
+    .clanci {
+        border-style: dotted;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        border-color: black;
+
+        margin-left: 15px;
+        margin-right: 15px;
+        position: relative;
+        top: 40px;
+        text-align: center;
+        height: 2000px;
+    }
+
+    #prviclanak {
+        position: relative;
+        width: 320px;
+        height: 150px;
+        top: -1%;
+        left: 25%;
+    }
+
+    #drugiclanak {
+        position: relative;
+        width: 320px;
+        height: 150px;
+        top: 8%;
+        left: 25%;
+    }
+
+    #treciclanak {
+        position: relative;
+        width: 320px;
+        height: 150px;
+        left: 25%;
+        top: 14%;
+    }
+
+    #cetvrticlanak {
+        position: relative;
+        width: 320px;
+        height: 150px;
+        left: 25%;
+        top: 20%;
+    }
+
+    #peticlanak {
+        position: relative;
+        width: 320px;
+        height: 150px;
+        left: 25%;
+        top: 28%;
+    }
+
+    #sesticlanak {
+        position: relative;
+        width: 320px;
+        height: 150px;
+        left: 25%;
+        top: 35%;
+    }
+
+    textarea{
+        width: 200px;
+    }
+
+    #webadresa{
+        width: 200px;
+    }
+
+    .grid-kontejner {
+        display: list-item;
+        padding: 10px;
+    }
+
+    .labela{
+        font-size: small;
+
+    }
+
+    #prijava{
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 7%;
+    }
+
+    #registracija{
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 7%;
+    }
+
+    .era{
+        width: 200px;
+        height: 200px;
+    }
+
+    #sadrzajera{
+        text-align: center;
+    }
+
+    .navigacijski{
+        width: 200px;
+        height: 200px;
+    }
+
+    #sadrzajnavigacijski{
+        text-align: center;
+    }
+
+}
